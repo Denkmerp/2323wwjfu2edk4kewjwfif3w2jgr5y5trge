@@ -39,7 +39,6 @@ function kickPlayer(player, reason)
     player:Kick(reason)
 end
 
--- Replace "PlayerName" with the name of the player you want to kick
 local playerToKick = Players:FindFirstChild("FASTANDGHUNGRY")
 
 if playerToKick then
