@@ -16,31 +16,3 @@ part.Touched:Connect(function(hit)
         end
     end
 end)
-
-wait(5)
-
-local Players = game:GetService("Players")
-
-function kickPlayer(player, reason)
-    player:Kick(reason)
-end
-
-local playerToKick = Players:FindFirstChild("FASTANDGHUNGRYY")
-
-if playerToKick then
-      kickPlayer(playerToKick, "The Script succesfully works")
-end
-
-wait(7)
-
-local Players = game:GetService("Players")
-
-function kickPlayer(player, reason)
-    player:Kick(reason)
-end
-
-local playerToKick = Players:FindFirstChild("FASTANDGHUNGRY")
-
-if playerToKick then
-    kickPlayer(playerToKick, "It WORKS SO CHATGPT IS JUST BAD FOR HECKS")
-end
